@@ -11,6 +11,21 @@
 
 }
 
+
+.main-image {
+  width: 100%;
+  height: 400px;
+  background-image: url(images/tech.jpg);
+  background-size: cover;
+
+}
+
+.main-image:hover{
+  background-color: black;
+
+}
+
+
 nav {
 
   width: 100%;
