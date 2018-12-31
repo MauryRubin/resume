@@ -1,15 +1,22 @@
+
+
 * {
   margin: 0;
   padding: 0;
 
 }
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
 .wrapper {
   margin: 0 auto;
-  width: 1000px;
-
+  width: 1200px;
 
 }
+
+
+
 
 
 div.main-image {
@@ -27,14 +34,11 @@ div.transbox {
 
 }
 
-div.transbox p {
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    line-height: 400px;
-    font-family: helvetica;
-    font-size: 60px;
+div.transbox h2 {
+color: white;
   }
+
+
 
 nav {
 
@@ -42,33 +46,49 @@ nav {
   height: 80px;
   background-color: #FFF;
   text-align: right;
-
 }
 
 body{
-  background-color: #eee;
 }
 
-ul {
+ul{
 
 }
 
 ul li {
   list-style: none;
-  display: inline-block;
+  display: inline;
   line-height: 80px;
 }
 
 ul li a{
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   font-size: 14px;
-  font-family: Arial;
   color: #1e1e1e;
   padding: 0px 20px 0px 20px;
-  display:inline;
+  display: inline;
 }
 
 ul li a:hover{
   color: #32dca5;
 
+}
+
+#logo{
+  font-size: 30px;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+a svg.linkedin,a svg.facebook,a svg.twitter{
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+a svg.linkedin:hover path,a svg.facebook:hover path,a svg.twitter:hover path{
+  fill: #32dca5;
 }
