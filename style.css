@@ -280,13 +280,6 @@ header .header-cases{
   line-height: 100px;
 }
 
-.paralax{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 
 @media only screen and (min-width: 1000px){
 
@@ -296,6 +289,13 @@ header .header-cases{
   }
 
 
+  .paralax{
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
 
 
 }
