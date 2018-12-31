@@ -204,7 +204,7 @@ header .header-cases{
   text-transform: uppercase;
   margin-right: 40px;
   padding: 0px 20px;
-  margin-top: 31px;
+  margin-top: 30px;
 
 }
 
@@ -264,7 +264,7 @@ header .header-cases{
 .index-links div{
 
   margin: 16px 16px 0;
-  width: calc(100%-32px);
+  width: calc(100% - 32px);
   height: 100px;
   background-color: #f2f2f2;
 }
@@ -283,8 +283,16 @@ header .header-cases{
 
 @media only screen and (min-width: 1000px){
 
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+
+
   .index-banner{
-      height:500px;
+      height:450px;
 
   }
 
@@ -297,6 +305,53 @@ header .header-cases{
 
   }
 
+  .index-banner h1{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+
+  .index-links{
+          overflow: hidden;
+        }
+
+
+
+.index-links div{
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+      }
+
+
+.index-boxlink-square{
+  width: calc(25% - 20px) !important;
+
+
+      }
+
+.index-boxlink-rectangle{
+  width: calc(50% - 20px) !important;
+
+
+  }
+
+
+
+
+
+  .index-links h3{
+    font-family: "Open Sans";
+    font-size: 28px;
+    text-align: center;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 230px;
+  }
+
 
 }
 
@@ -304,7 +359,7 @@ header .header-cases{
 /* footer:  */
 
 footer{
-  width: calc(100%-80px);
+  width: calc(100% - 80px);
   padding: 40px 40px;
   margin-top: 20px;
   background-color: black;
@@ -343,4 +398,37 @@ footer ul a{
 
   width: 100%;
   margin-bottom: 10px;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+
+  .footer-main-cases{
+    display: block;
+    padding-left: 50px;
+    padding-right: 30px;
+
+  }
+
+
+.footer-main-cases li p{
+  display: block;
+  list-style: none;
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+
+}
+
+
+.footer-main-cases li a{
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;}
+
+
+
 }
